@@ -1,11 +1,11 @@
 {
   "reportType": "OverallSummaryReport",
   "reportPeriod": {
-    "startDate": "2025-05-10T16:01:15.414628",
-    "endDate": "2025-06-09T16:01:15.414628"
+    "startDate": "2025-05-10T16:05:05.177853",
+    "endDate": "2025-06-09T16:05:05.177853"
   },
   "metadata": {
-    "generatedOn": "2025-06-09T16:01:15.414647",
+    "generatedOn": "2025-06-09T16:05:05.177866",
     "subscriptionId": "demo-subscription-id",
     "dataSource": "Demo/Fallback Data (Carbon API unavailable)",
     "note": "Real Carbon API was not accessible, using demo data"
@@ -85,157 +85,157 @@
   "dailyEmissions": [
     {
       "date": "2025-05-10",
-      "emissions": 1.09,
-      "unit": "kg CO2e"
-    },
-    {
-      "date": "2025-05-11",
-      "emissions": 1.83,
-      "unit": "kg CO2e"
-    },
-    {
-      "date": "2025-05-12",
-      "emissions": 1.8,
-      "unit": "kg CO2e"
-    },
-    {
-      "date": "2025-05-13",
-      "emissions": 1.75,
-      "unit": "kg CO2e"
-    },
-    {
-      "date": "2025-05-14",
-      "emissions": 1.91,
-      "unit": "kg CO2e"
-    },
-    {
-      "date": "2025-05-15",
-      "emissions": 1.53,
-      "unit": "kg CO2e"
-    },
-    {
-      "date": "2025-05-16",
-      "emissions": 1.42,
-      "unit": "kg CO2e"
-    },
-    {
-      "date": "2025-05-17",
-      "emissions": 1.52,
-      "unit": "kg CO2e"
-    },
-    {
-      "date": "2025-05-18",
-      "emissions": 1.02,
-      "unit": "kg CO2e"
-    },
-    {
-      "date": "2025-05-19",
-      "emissions": 1.12,
-      "unit": "kg CO2e"
-    },
-    {
-      "date": "2025-05-20",
-      "emissions": 1.55,
-      "unit": "kg CO2e"
-    },
-    {
-      "date": "2025-05-21",
-      "emissions": 1.03,
-      "unit": "kg CO2e"
-    },
-    {
-      "date": "2025-05-22",
-      "emissions": 1.13,
-      "unit": "kg CO2e"
-    },
-    {
-      "date": "2025-05-23",
-      "emissions": 1.63,
-      "unit": "kg CO2e"
-    },
-    {
-      "date": "2025-05-24",
-      "emissions": 1.69,
-      "unit": "kg CO2e"
-    },
-    {
-      "date": "2025-05-25",
-      "emissions": 1.22,
-      "unit": "kg CO2e"
-    },
-    {
-      "date": "2025-05-26",
-      "emissions": 1.27,
-      "unit": "kg CO2e"
-    },
-    {
-      "date": "2025-05-27",
-      "emissions": 1.4,
-      "unit": "kg CO2e"
-    },
-    {
-      "date": "2025-05-28",
-      "emissions": 1.29,
-      "unit": "kg CO2e"
-    },
-    {
-      "date": "2025-05-29",
-      "emissions": 1.96,
-      "unit": "kg CO2e"
-    },
-    {
-      "date": "2025-05-30",
       "emissions": 1.68,
       "unit": "kg CO2e"
     },
     {
-      "date": "2025-05-31",
-      "emissions": 1.96,
+      "date": "2025-05-11",
+      "emissions": 1.7,
       "unit": "kg CO2e"
     },
     {
-      "date": "2025-06-01",
-      "emissions": 1.46,
+      "date": "2025-05-12",
+      "emissions": 1.62,
       "unit": "kg CO2e"
     },
     {
-      "date": "2025-06-02",
+      "date": "2025-05-13",
+      "emissions": 1.07,
+      "unit": "kg CO2e"
+    },
+    {
+      "date": "2025-05-14",
+      "emissions": 1.68,
+      "unit": "kg CO2e"
+    },
+    {
+      "date": "2025-05-15",
       "emissions": 1.0,
       "unit": "kg CO2e"
     },
     {
+      "date": "2025-05-16",
+      "emissions": 1.71,
+      "unit": "kg CO2e"
+    },
+    {
+      "date": "2025-05-17",
+      "emissions": 1.93,
+      "unit": "kg CO2e"
+    },
+    {
+      "date": "2025-05-18",
+      "emissions": 1.08,
+      "unit": "kg CO2e"
+    },
+    {
+      "date": "2025-05-19",
+      "emissions": 1.42,
+      "unit": "kg CO2e"
+    },
+    {
+      "date": "2025-05-20",
+      "emissions": 1.29,
+      "unit": "kg CO2e"
+    },
+    {
+      "date": "2025-05-21",
+      "emissions": 1.73,
+      "unit": "kg CO2e"
+    },
+    {
+      "date": "2025-05-22",
+      "emissions": 1.86,
+      "unit": "kg CO2e"
+    },
+    {
+      "date": "2025-05-23",
+      "emissions": 1.52,
+      "unit": "kg CO2e"
+    },
+    {
+      "date": "2025-05-24",
+      "emissions": 1.31,
+      "unit": "kg CO2e"
+    },
+    {
+      "date": "2025-05-25",
+      "emissions": 1.97,
+      "unit": "kg CO2e"
+    },
+    {
+      "date": "2025-05-26",
+      "emissions": 1.3,
+      "unit": "kg CO2e"
+    },
+    {
+      "date": "2025-05-27",
+      "emissions": 1.76,
+      "unit": "kg CO2e"
+    },
+    {
+      "date": "2025-05-28",
+      "emissions": 1.36,
+      "unit": "kg CO2e"
+    },
+    {
+      "date": "2025-05-29",
+      "emissions": 1.07,
+      "unit": "kg CO2e"
+    },
+    {
+      "date": "2025-05-30",
+      "emissions": 1.57,
+      "unit": "kg CO2e"
+    },
+    {
+      "date": "2025-05-31",
+      "emissions": 1.39,
+      "unit": "kg CO2e"
+    },
+    {
+      "date": "2025-06-01",
+      "emissions": 1.34,
+      "unit": "kg CO2e"
+    },
+    {
+      "date": "2025-06-02",
+      "emissions": 1.88,
+      "unit": "kg CO2e"
+    },
+    {
       "date": "2025-06-03",
-      "emissions": 1.9,
+      "emissions": 1.57,
       "unit": "kg CO2e"
     },
     {
       "date": "2025-06-04",
-      "emissions": 1.65,
+      "emissions": 1.92,
       "unit": "kg CO2e"
     },
     {
       "date": "2025-06-05",
-      "emissions": 1.79,
+      "emissions": 1.2,
       "unit": "kg CO2e"
     },
     {
       "date": "2025-06-06",
-      "emissions": 1.63,
+      "emissions": 1.98,
       "unit": "kg CO2e"
     },
     {
       "date": "2025-06-07",
-      "emissions": 1.4,
+      "emissions": 1.07,
       "unit": "kg CO2e"
     },
     {
       "date": "2025-06-08",
-      "emissions": 1.24,
+      "emissions": 1.97,
       "unit": "kg CO2e"
     },
     {
       "date": "2025-06-09",
-      "emissions": 1.52,
+      "emissions": 1.36,
       "unit": "kg CO2e"
     }
   ]

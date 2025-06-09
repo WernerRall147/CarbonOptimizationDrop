@@ -1,0 +1,692 @@
+date,serviceName,location,costUSD,estimatedCarbonKg,carbonIntensityFactor,regionalFactor
+,Azure App Service,us east,0.0,0.0,0.3,0.4
+,Azure Cognitive Search,us east,0.0,0.0,0.3,0.4
+,Azure DNS,unknown,0.015897478251817,0.0019,0.3,0.4
+,Azure DNS,unknown,0.015715853810111,0.0019,0.3,0.4
+,Bandwidth,us east,1.69542129e-07,0.0,0.3,0.4
+,Event Grid,unknown,1.5784956843e-05,0.0,0.3,0.4
+,Functions,us east,0.000273943855323,0.0,0.3,0.4
+,Log Analytics,us east,0.057419580864105,0.0069,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.47705647348952,0.0572,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.47705647348952,0.0572,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.47705647348952,0.0572,0.3,0.4
+,Microsoft Defender for Cloud,unknown,0.005113546513221,0.0006,0.3,0.4
+,Microsoft Defender for Cloud,unknown,1.9487601041e-05,0.0,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.635171463049733,0.0762,0.3,0.4
+,SQL Database,za north,0.201363501083568,0.0242,0.3,0.4
+,Sentinel,us east,0.00615433427467,0.0007,0.3,0.4
+,Sentinel,us east,0.044072059614781,0.0053,0.3,0.4
+,Storage,us east,4.9630242827e-05,0.0,0.3,0.4
+,Storage,us east,0.017106478312098,0.0021,0.3,0.4
+,Storage,us east,0.619548208807782,0.0743,0.3,0.4
+,Virtual Network,us east,0.233851212494862,0.0281,0.3,0.4
+,Azure App Service,us east,0.0,0.0,0.3,0.4
+,Azure Cognitive Search,us east,0.0,0.0,0.3,0.4
+,Azure DNS,unknown,0.015888903707358,0.0019,0.3,0.4
+,Azure DNS,unknown,0.015715853810111,0.0019,0.3,0.4
+,Bandwidth,us east,5.08626387e-07,0.0,0.3,0.4
+,Event Grid,unknown,1.8123468968e-05,0.0,0.3,0.4
+,Functions,us east,0.000299242772983,0.0,0.3,0.4
+,Log Analytics,us east,0.059225975453964,0.0071,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.47705647348952,0.0572,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.47705647348952,0.0572,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.47705647348952,0.0572,0.3,0.4
+,Microsoft Defender for Cloud,unknown,0.004852412659268,0.0006,0.3,0.4
+,Microsoft Defender for Cloud,unknown,1.9487601041e-05,0.0,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.635171463049733,0.0762,0.3,0.4
+,SQL Database,za north,0.66726004783277,0.0801,0.3,0.4
+,Sentinel,us east,0.006339281934238,0.0008,0.3,0.4
+,Sentinel,us east,0.045703963098122,0.0055,0.3,0.4
+,Storage,us east,4.6707102671e-05,0.0,0.3,0.4
+,Storage,us east,0.017469826551583,0.0021,0.3,0.4
+,Storage,us east,0.619549626530758,0.0743,0.3,0.4
+,Virtual Network,us east,0.233851212494862,0.0281,0.3,0.4
+,Azure App Service,us east,0.0,0.0,0.3,0.4
+,Azure Cognitive Search,us east,0.0,0.0,0.3,0.4
+,Azure DNS,unknown,0.015875262386628,0.0019,0.3,0.4
+,Azure DNS,unknown,0.015715853810111,0.0019,0.3,0.4
+,Bandwidth,us east,1.017252774e-06,0.0,0.3,0.4
+,Event Grid,unknown,2.2215865187e-05,0.0,0.3,0.4
+,Functions,us east,0.000335839046445,0.0,0.3,0.4
+,Log Analytics,us east,0.001902301252795,0.0002,0.3,0.4
+,Log Analytics,us east,0.051082343871401,0.0061,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.47705647348952,0.0572,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.47705647348952,0.0572,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.47705647348952,0.0572,0.3,0.4
+,Microsoft Defender for Cloud,unknown,0.005440938210714,0.0007,0.3,0.4
+,Microsoft Defender for Cloud,unknown,1.9487601041e-05,0.0,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.635171463049733,0.0762,0.3,0.4
+,SQL Database,za north,0.201363501083568,0.0242,0.3,0.4
+,Sentinel,us east,0.000154969396141,0.0,0.3,0.4
+,Sentinel,us east,0.039962827857176,0.0048,0.3,0.4
+,Storage,us east,4.6707102671e-05,0.0,0.3,0.4
+,Storage,us east,0.012414871407042,0.0015,0.3,0.4
+,Storage,us east,0.61955285172873,0.0743,0.3,0.4
+,Virtual Network,us east,0.233851212494862,0.0281,0.3,0.4
+,Azure App Service,us east,0.0,0.0,0.3,0.4
+,Azure Cognitive Search,us east,0.0,0.0,0.3,0.4
+,Azure DNS,unknown,0.015889293459378,0.0019,0.3,0.4
+,Azure DNS,unknown,0.015715853810111,0.0019,0.3,0.4
+,Bandwidth,us east,2.54313194e-07,0.0,0.3,0.4
+,Event Grid,unknown,1.4615700781e-05,0.0,0.3,0.4
+,Functions,us east,0.000312471982463,0.0,0.3,0.4
+,Log Analytics,us east,0.006258524372856,0.0008,0.3,0.4
+,Log Analytics,us east,0.050502125506804,0.0061,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.47705647348952,0.0572,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.47705647348952,0.0572,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.47705647348952,0.0572,0.3,0.4
+,Microsoft Defender for Cloud,unknown,0.003472690505549,0.0004,0.3,0.4
+,Microsoft Defender for Cloud,unknown,1.5590080833e-05,0.0,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.635171463049733,0.0762,0.3,0.4
+,SQL Database,za north,0.201363501083568,0.0242,0.3,0.4
+,Sentinel,us east,0.000154965206306,0.0,0.3,0.4
+,Sentinel,us east,0.043914862873316,0.0053,0.3,0.4
+,Storage,us east,4.6707102671e-05,0.0,0.3,0.4
+,Storage,us east,0.016766234497877,0.002,0.3,0.4
+,Storage,us east,0.619547200324428,0.0743,0.3,0.4
+,Virtual Network,us east,0.233851212494862,0.0281,0.3,0.4
+,Azure App Service,us east,0.0,0.0,0.3,0.4
+,Azure Cognitive Search,us east,0.0,0.0,0.3,0.4
+,Azure DNS,unknown,0.015857723545692,0.0019,0.3,0.4
+,Azure DNS,unknown,0.015715853810111,0.0019,0.3,0.4
+,Bandwidth,us east,1.69542129e-07,0.0,0.3,0.4
+,Event Grid,unknown,1.3446444718e-05,0.0,0.3,0.4
+,Functions,us east,0.000376448828607,0.0,0.3,0.4
+,Log Analytics,us east,0.006127215265299,0.0007,0.3,0.4
+,Log Analytics,us east,0.051125122141322,0.0061,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.47705647348952,0.0572,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.47705647348952,0.0572,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.47705647348952,0.0572,0.3,0.4
+,Microsoft Defender for Cloud,unknown,0.004953748184683,0.0006,0.3,0.4
+,Microsoft Defender for Cloud,unknown,1.9487601041e-05,0.0,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.635171463049733,0.0762,0.3,0.4
+,SQL Database,za north,0.201363501083568,0.0242,0.3,0.4
+,Sentinel,us east,0.000155007104648,0.0,0.3,0.4
+,Sentinel,us east,0.044456598721081,0.0053,0.3,0.4
+,Storage,us east,4.8679247896e-05,0.0,0.3,0.4
+,Storage,us east,0.016352074256748,0.002,0.3,0.4
+,Storage,us east,0.619547200324428,0.0743,0.3,0.4
+,Virtual Network,us east,0.233851212494862,0.0281,0.3,0.4
+,Azure App Service,us east,0.0,0.0,0.3,0.4
+,Azure Cognitive Search,us east,0.0,0.0,0.3,0.4
+,Azure DNS,unknown,0.015874482882587,0.0019,0.3,0.4
+,Azure DNS,unknown,0.015715853810111,0.0019,0.3,0.4
+,Bandwidth,us east,1.69542129e-07,0.0,0.3,0.4
+,Event Grid,unknown,1.1692560625e-05,0.0,0.3,0.4
+,Functions,us east,0.000259685491163,0.0,0.3,0.4
+,Log Analytics,us east,0.005844772494522,0.0007,0.3,0.4
+,Log Analytics,us east,0.049694840735124,0.006,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.47705647348952,0.0572,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.47705647348952,0.0572,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.47705647348952,0.0572,0.3,0.4
+,Microsoft Defender for Cloud,unknown,0.005203189478011,0.0006,0.3,0.4
+,Microsoft Defender for Cloud,unknown,1.9487601041e-05,0.0,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.635171463049733,0.0762,0.3,0.4
+,SQL Database,za north,0.201363501083568,0.0242,0.3,0.4
+,Sentinel,us east,0.000154977775809,0.0,0.3,0.4
+,Sentinel,us east,0.043212876576852,0.0052,0.3,0.4
+,Storage,us east,4.9073676941e-05,0.0,0.3,0.4
+,Storage,us east,0.015812088461434,0.0019,0.3,0.4
+,Storage,us east,0.619547200324428,0.0743,0.3,0.4
+,Virtual Network,us east,0.233851212494862,0.0281,0.3,0.4
+,Azure App Service,us east,0.0,0.0,0.3,0.4
+,Azure Cognitive Search,us east,0.0,0.0,0.3,0.4
+,Azure DNS,unknown,0.015942689486232,0.0019,0.3,0.4
+,Azure DNS,unknown,0.015715853810111,0.0019,0.3,0.4
+,Bandwidth,us east,4.069011097e-06,0.0,0.3,0.4
+,Event Grid,unknown,1.2277188656e-05,0.0,0.3,0.4
+,Functions,us east,0.000244528318948,0.0,0.3,0.4
+,Log Analytics,us east,0.007966535567629,0.001,0.3,0.4
+,Log Analytics,us east,0.057022846772541,0.0068,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.47705647348952,0.0572,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.47705647348952,0.0572,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.47705647348952,0.0572,0.3,0.4
+,Microsoft Defender for Cloud,unknown,0.004809539936978,0.0006,0.3,0.4
+,Microsoft Defender for Cloud,unknown,1.9487601041e-05,0.0,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.635171463049733,0.0762,0.3,0.4
+,SQL Database,za north,0.201363501083568,0.0242,0.3,0.4
+,Sentinel,us east,0.00015159657964,0.0,0.3,0.4
+,Sentinel,us east,0.049585051550451,0.006,0.3,0.4
+,Storage,us east,6.9994785916e-05,0.0,0.3,0.4
+,Storage,us east,0.019809046072065,0.0024,0.3,0.4
+,Storage,us east,0.619547590076449,0.0743,0.3,0.4
+,Virtual Network,us east,0.233851212494862,0.0281,0.3,0.4
+,Azure App Service,us east,0.0,0.0,0.3,0.4
+,Azure Cognitive Search,us east,0.0,0.0,0.3,0.4
+,Azure DNS,unknown,0.015213809360187,0.0018,0.3,0.4
+,Azure DNS,unknown,0.015061026568023,0.0018,0.3,0.4
+,Bandwidth,us east,2.54313194e-07,0.0,0.3,0.4
+,Event Grid,unknown,1.4615700781e-05,0.0,0.3,0.4
+,Functions,us east,0.000159355555556,0.0,0.3,0.4
+,Log Analytics,us east,0.002664988617997,0.0003,0.3,0.4
+,Log Analytics,us east,0.02889963036321,0.0035,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.457179120427456,0.0549,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.457179120427456,0.0549,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.457179120427456,0.0549,0.3,0.4
+,Microsoft Defender for Cloud,unknown,0.004602971365941,0.0006,0.3,0.4
+,Microsoft Defender for Cloud,unknown,7.795040416e-06,0.0,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.589061168160022,0.0707,0.3,0.4
+,SQL Database,za north,0.184583209326604,0.0221,0.3,0.4
+,Storage,us east,4.8329640333e-05,0.0,0.3,0.4
+,Storage,us east,0.012253979060145,0.0015,0.3,0.4
+,Storage,us east,0.593732850244691,0.0712,0.3,0.4
+,Virtual Network,us east,0.224107411974244,0.0269,0.3,0.4
+,Azure App Service,us east,0.0,0.0,0.3,0.4
+,Azure Cognitive Search,us east,0.0,0.0,0.3,0.4
+,Azure DNS,unknown,0.015640579812443,0.0019,0.3,0.4
+,Azure DNS,unknown,0.015470992975838,0.0019,0.3,0.4
+,Bandwidth,us east,2.169713939e-06,0.0,0.3,0.4
+,Event Grid,unknown,1.3812502529e-05,0.0,0.3,0.4
+,Functions,us east,0.000306934115584,0.0,0.3,0.4
+,Log Analytics,us east,0.006656725816387,0.0008,0.3,0.4
+,Log Analytics,us east,0.049913593215132,0.006,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,unknown,0.003479983276013,0.0004,0.3,0.4
+,Microsoft Defender for Cloud,unknown,1.5347225032e-05,0.0,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.625275652111486,0.075,0.3,0.4
+,SQL Database,za north,0.656865741599049,0.0788,0.3,0.4
+,Sentinel,us east,0.000333149503702,0.0,0.3,0.4
+,Sentinel,us east,0.043403124534898,0.0052,0.3,0.4
+,Storage,us east,4.5979518835e-05,0.0,0.3,0.4
+,Storage,us east,0.016822543621284,0.002,0.3,0.4
+,Storage,us east,0.609894275698695,0.0732,0.3,0.4
+,Virtual Network,us east,0.230208375480476,0.0276,0.3,0.4
+,Azure App Service,us east,0.0,0.0,0.3,0.4
+,Azure Cognitive Search,us east,0.0,0.0,0.3,0.4
+,Azure DNS,unknown,0.015603746472366,0.0019,0.3,0.4
+,Azure DNS,unknown,0.015470992975838,0.0019,0.3,0.4
+,Bandwidth,us east,1.084856969e-06,0.0,0.3,0.4
+,Event Grid,unknown,1.1510418774e-05,0.0,0.3,0.4
+,Functions,us east,0.000258304214714,0.0,0.3,0.4
+,Log Analytics,us east,0.006889193687073,0.0008,0.3,0.4
+,Log Analytics,us east,0.05247684865968,0.0063,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,unknown,0.00479600782251,0.0006,0.3,0.4
+,Microsoft Defender for Cloud,unknown,1.918403129e-05,0.0,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.625275652111486,0.075,0.3,0.4
+,SQL Database,za north,0.198226738800823,0.0238,0.3,0.4
+,Sentinel,us east,0.000152575972378,0.0,0.3,0.4
+,Sentinel,us east,0.045632042312765,0.0055,0.3,0.4
+,Storage,us east,4.5397091645e-05,0.0,0.3,0.4
+,Storage,us east,0.01754058296581,0.0021,0.3,0.4
+,Storage,us east,0.609896069621414,0.0732,0.3,0.4
+,Virtual Network,us east,0.230208375480476,0.0276,0.3,0.4
+,Azure App Service,us east,0.0,0.0,0.3,0.4
+,Azure Cognitive Search,us east,0.0,0.0,0.3,0.4
+,Azure DNS,unknown,0.015621395781154,0.0019,0.3,0.4
+,Azure DNS,unknown,0.015470992975838,0.0019,0.3,0.4
+,Bandwidth,us east,1.66901072e-07,0.0,0.3,0.4
+,Event Grid,unknown,2.2445316609e-05,0.0,0.3,0.4
+,Functions,us east,0.000294696203385,0.0,0.3,0.4
+,Log Analytics,us east,0.006185873144244,0.0007,0.3,0.4
+,Log Analytics,us east,0.05058394705531,0.0061,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,unknown,0.005548021849079,0.0007,0.3,0.4
+,Microsoft Defender for Cloud,unknown,1.918403129e-05,0.0,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.625275652111486,0.075,0.3,0.4
+,SQL Database,za north,0.198226738800823,0.0238,0.3,0.4
+,Sentinel,us east,0.007078519548992,0.0008,0.3,0.4
+,Sentinel,us east,0.043986040917661,0.0053,0.3,0.4
+,Storage,us east,4.3067382885e-05,0.0,0.3,0.4
+,Storage,us east,0.0166255986405,0.002,0.3,0.4
+,Storage,us east,0.60988947031465,0.0732,0.3,0.4
+,Virtual Network,us east,0.230208375480476,0.0276,0.3,0.4
+,Azure App Service,us east,0.0,0.0,0.3,0.4
+,Azure Cognitive Search,us east,0.0,0.0,0.3,0.4
+,Azure DNS,unknown,0.015624465226159,0.0019,0.3,0.4
+,Azure DNS,unknown,0.015470992975838,0.0019,0.3,0.4
+,Bandwidth,intercontinental,0.00014888100827,0.0,0.3,0.4
+,Bandwidth,us east,3.154430265e-05,0.0,0.3,0.4
+,Bandwidth,us east,0.001171424754709,0.0001,0.3,0.4
+,Event Grid,unknown,0.000227330770787,0.0,0.3,0.4
+,Functions,us east,0.001224004558635,0.0001,0.3,0.4
+,Load Balancer,us east,0.288500149317296,0.0346,0.3,0.4
+,Log Analytics,us east,0.026826596369816,0.0032,0.3,0.4
+,Log Analytics,us east,0.106389803926036,0.0128,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,1.22739432193674,0.1473,0.3,0.4
+,Microsoft Defender for Cloud,unknown,0.01646757245937,0.002,0.3,0.4
+,Microsoft Defender for Cloud,unknown,1.918403129e-05,0.0,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.625275652111486,0.075,0.3,0.4
+,SQL Database,za north,0.198226738800823,0.0238,0.3,0.4
+,Sentinel,us east,0.172277625282351,0.0207,0.3,0.4
+,Sentinel,us east,0.092512872979162,0.0111,0.3,0.4
+,Storage,us east,4.0446460531e-05,0.0,0.3,0.4
+,Storage,us east,0.031328490228605,0.0038,0.3,0.4
+,Storage,us east,1.5266337233108,0.1832,0.3,0.4
+,Virtual Machines,us east,1.16316630488604,0.1396,0.3,0.4
+,Virtual Network,us east,0.461008258592396,0.0553,0.3,0.4
+,Azure App Service,us east,0.0,0.0,0.3,0.4
+,Azure Cognitive Search,us east,0.0,0.0,0.3,0.4
+,Azure DNS,unknown,0.015636743006185,0.0019,0.3,0.4
+,Azure DNS,unknown,0.015470992975838,0.0019,0.3,0.4
+,Bandwidth,us east,1.1849976128e-05,0.0,0.3,0.4
+,Event Grid,unknown,2.0718753793e-05,0.0,0.3,0.4
+,Functions,us east,0.000341004922786,0.0,0.3,0.4
+,Load Balancer,us east,0.57552093870119,0.0691,0.3,0.4
+,Log Analytics,us east,0.007140122734749,0.0009,0.3,0.4
+,Log Analytics,us east,0.055610909224357,0.0067,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,unknown,0.005920192056106,0.0007,0.3,0.4
+,Microsoft Defender for Cloud,unknown,1.918403129e-05,0.0,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.625275652111486,0.075,0.3,0.4
+,SQL Database,za north,0.198226738800823,0.0238,0.3,0.4
+,Sentinel,us east,0.000153099792353,0.0,0.3,0.4
+,Sentinel,us east,0.048357312369006,0.0058,0.3,0.4
+,Storage,us east,3.8500432397e-05,0.0,0.3,0.4
+,Storage,us east,0.017326579302718,0.0021,0.3,0.4
+,Storage,us east,2.43937057125469,0.2927,0.3,0.4
+,Virtual Network,us east,0.690625126441428,0.0829,0.3,0.4
+,Azure App Service,us east,0.0,0.0,0.3,0.4
+,Azure Cognitive Search,us east,0.0,0.0,0.3,0.4
+,Azure DNS,unknown,0.015649020786211,0.0019,0.3,0.4
+,Azure DNS,unknown,0.015470992975838,0.0019,0.3,0.4
+,Bandwidth,us east,1.66901072e-07,0.0,0.3,0.4
+,Event Grid,unknown,1.4963544406e-05,0.0,0.3,0.4
+,Functions,us east,0.000288521707465,0.0,0.3,0.4
+,Load Balancer,us east,0.57552093870119,0.0691,0.3,0.4
+,Log Analytics,us east,0.007013974300196,0.0008,0.3,0.4
+,Log Analytics,us east,0.054141730019178,0.0065,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,unknown,0.004009462539618,0.0005,0.3,0.4
+,Microsoft Defender for Cloud,unknown,1.5347225032e-05,0.0,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.625275652111486,0.075,0.3,0.4
+,SQL Database,za north,0.198226738800823,0.0238,0.3,0.4
+,Sentinel,us east,0.000153091543219,0.0,0.3,0.4
+,Sentinel,us east,0.047079765234068,0.0056,0.3,0.4
+,Storage,us east,5.9201920562e-05,0.0,0.3,0.4
+,Storage,us east,0.017598094738689,0.0021,0.3,0.4
+,Storage,us east,2.43936950174494,0.2927,0.3,0.4
+,Virtual Network,us east,0.690625126441428,0.0829,0.3,0.4
+,Azure App Service,us east,0.0,0.0,0.3,0.4
+,Azure Cognitive Search,us east,0.0,0.0,0.3,0.4
+,Azure DNS,unknown,0.015639812451191,0.0019,0.3,0.4
+,Azure DNS,unknown,0.015470992975838,0.0019,0.3,0.4
+,Bandwidth,us east,4.255977342e-06,0.0,0.3,0.4
+,Event Grid,unknown,1.4388023468e-05,0.0,0.3,0.4
+,Functions,us east,0.00019827715962,0.0,0.3,0.4
+,Load Balancer,us east,0.57552093870119,0.0691,0.3,0.4
+,Log Analytics,us east,0.006401977899521,0.0008,0.3,0.4
+,Log Analytics,us east,0.047992227688016,0.0058,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,unknown,0.005252587767213,0.0006,0.3,0.4
+,Microsoft Defender for Cloud,unknown,1.918403129e-05,0.0,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.625275652111486,0.075,0.3,0.4
+,SQL Database,za north,0.198226738800823,0.0238,0.3,0.4
+,Sentinel,us east,0.00015310391692,0.0,0.3,0.4
+,Sentinel,us east,0.041732371902623,0.005,0.3,0.4
+,Storage,us east,3.7786402753e-05,0.0,0.3,0.4
+,Storage,us east,0.017843402899723,0.0021,0.3,0.4
+,Storage,us east,2.43936815886275,0.2927,0.3,0.4
+,Virtual Network,us east,0.690625126441428,0.0829,0.3,0.4
+,Azure App Service,us east,0.0,0.0,0.3,0.4
+,Azure Cognitive Search,us east,0.0,0.0,0.3,0.4
+,Azure DNS,unknown,0.015626767309915,0.0019,0.3,0.4
+,Azure DNS,unknown,0.015470992975838,0.0019,0.3,0.4
+,Bandwidth,us east,7.4437878212e-05,0.0,0.3,0.4
+,Event Grid,unknown,1.8992190977e-05,0.0,0.3,0.4
+,Functions,us east,0.000164890066761,0.0,0.3,0.4
+,Load Balancer,us east,0.57552093870119,0.0691,0.3,0.4
+,Log Analytics,us east,0.006365990958905,0.0008,0.3,0.4
+,Log Analytics,us east,0.045622362338337,0.0055,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,unknown,0.005820435093398,0.0007,0.3,0.4
+,Microsoft Defender for Cloud,unknown,1.918403129e-05,0.0,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.625275652111486,0.075,0.3,0.4
+,SQL Database,za north,0.656738518574695,0.0788,0.3,0.4
+,Sentinel,us east,0.000345811923555,0.0,0.3,0.4
+,Sentinel,us east,0.039671619424641,0.0048,0.3,0.4
+,Storage,us east,3.2001266276e-05,0.0,0.3,0.4
+,Storage,us east,0.016139348746372,0.0019,0.3,0.4
+,Storage,us east,2.43936886867191,0.2927,0.3,0.4
+,Virtual Network,us east,0.690625126441428,0.0829,0.3,0.4
+,Azure App Service,us east,0.0,0.0,0.3,0.4
+,Azure Cognitive Search,us east,0.0,0.0,0.3,0.4
+,Azure DNS,unknown,0.0156800989169,0.0019,0.3,0.4
+,Azure DNS,unknown,0.015470992975838,0.0019,0.3,0.4
+,Bandwidth,us east,1.66901072e-07,0.0,0.3,0.4
+,Event Grid,unknown,2.5898442242e-05,0.0,0.3,0.4
+,Functions,us east,0.0002537059006,0.0,0.3,0.4
+,Load Balancer,us east,0.57552093870119,0.0691,0.3,0.4
+,Log Analytics,us east,0.006781550552782,0.0008,0.3,0.4
+,Log Analytics,us east,0.051408842655553,0.0062,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,unknown,0.006227136556747,0.0007,0.3,0.4
+,Microsoft Defender for Cloud,unknown,1.918403129e-05,0.0,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.625275652111486,0.075,0.3,0.4
+,SQL Database,za north,0.198226738800823,0.0238,0.3,0.4
+,Sentinel,us east,0.202174328603573,0.0243,0.3,0.4
+,Sentinel,us east,0.044703341439611,0.0054,0.3,0.4
+,Storage,us east,3.2384946902e-05,0.0,0.3,0.4
+,Storage,us east,0.017382414468946,0.0021,0.3,0.4
+,Storage,us east,2.28692647470334,0.2744,0.3,0.4
+,Virtual Network,us east,0.657053071683858,0.0788,0.3,0.4
+,Azure App Service,us east,0.0,0.0,0.3,0.4
+,Azure Cognitive Search,us east,0.0,0.0,0.3,0.4
+,Azure DNS,unknown,0.015644416618702,0.0019,0.3,0.4
+,Azure DNS,unknown,0.015470992975838,0.0019,0.3,0.4
+,Bandwidth,intercontinental,4.891630231e-06,0.0,0.3,0.4
+,Bandwidth,us east,5.340834311e-06,0.0,0.3,0.4
+,Bandwidth,us east,0.000348845546659,0.0,0.3,0.4
+,Event Grid,unknown,1.8416670038e-05,0.0,0.3,0.4
+,Functions,us east,0.000334435902623,0.0,0.3,0.4
+,Load Balancer,us east,0.57552093870119,0.0691,0.3,0.4
+,Log Analytics,us east,0.00569020113162,0.0007,0.3,0.4
+,Log Analytics,us east,0.048006572163733,0.0058,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.631730150381007,0.0758,0.3,0.4
+,Microsoft Defender for Cloud,unknown,0.006158074044103,0.0007,0.3,0.4
+,Microsoft Defender for Cloud,unknown,1.918403129e-05,0.0,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.625275652111486,0.075,0.3,0.4
+,SQL Database,za north,0.198226738800823,0.0238,0.3,0.4
+,Sentinel,us east,0.649757486163702,0.078,0.3,0.4
+,Sentinel,us east,0.041744845359768,0.005,0.3,0.4
+,Storage,us east,3.2001266276e-05,0.0,0.3,0.4
+,Storage,us east,0.016024641564501,0.0019,0.3,0.4
+,Storage,us east,1.82953991822077,0.2195,0.3,0.4
+,Virtual Machines,us east,0.268014278415967,0.0322,0.3,0.4
+,Virtual Network,us east,0.460416750960952,0.0553,0.3,0.4
+,Azure App Service,us east,0.0,0.0,0.3,0.4
+,Azure Cognitive Search,us east,0.0,0.0,0.3,0.4
+,Azure DNS,unknown,0.015651322869966,0.0019,0.3,0.4
+,Azure DNS,unknown,0.015470992975838,0.0019,0.3,0.4
+,Bandwidth,us east,1.251758042e-06,0.0,0.3,0.4
+,Event Grid,unknown,1.8992190977e-05,0.0,0.3,0.4
+,Functions,us east,0.000359442228067,0.0,0.3,0.4
+,Load Balancer,us east,0.57552093870119,0.0691,0.3,0.4
+,Log Analytics,us east,0.006701568297687,0.0008,0.3,0.4
+,Log Analytics,us east,0.051205123302717,0.0061,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.456771785015844,0.0548,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.456771785015844,0.0548,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.456771785015844,0.0548,0.3,0.4
+,Microsoft Defender for Cloud,unknown,0.003882847933104,0.0005,0.3,0.4
+,Microsoft Defender for Cloud,unknown,1.5347225032e-05,0.0,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.625275652111486,0.075,0.3,0.4
+,SQL Database,za north,0.198226738800823,0.0238,0.3,0.4
+,Sentinel,us east,0.554417730302404,0.0665,0.3,0.4
+,Sentinel,us east,0.044526194176276,0.0053,0.3,0.4
+,Storage,us east,3.2384946902e-05,0.0,0.3,0.4
+,Storage,us east,0.017257996369276,0.0021,0.3,0.4
+,Storage,us east,1.82954068558202,0.2195,0.3,0.4
+,Virtual Network,us east,0.460416750960952,0.0553,0.3,0.4
+,Azure App Service,us east,0.0,0.0,0.3,0.4
+,Azure Cognitive Search,us east,0.0,0.0,0.3,0.4
+,Azure DNS,unknown,0.015700050309441,0.0019,0.3,0.4
+,Azure DNS,unknown,0.015470992975838,0.0019,0.3,0.4
+,Bandwidth,us east,2.50351608e-07,0.0,0.3,0.4
+,Event Grid,unknown,2.7049484119e-05,0.0,0.3,0.4
+,Functions,us east,0.000345725807539,0.0,0.3,0.4
+,Load Balancer,us east,0.57552093870119,0.0691,0.3,0.4
+,Log Analytics,us east,0.006147977872115,0.0007,0.3,0.4
+,Log Analytics,us east,0.041902744037548,0.005,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,unknown,0.005448264886371,0.0007,0.3,0.4
+,Microsoft Defender for Cloud,unknown,1.918403129e-05,0.0,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.625275652111486,0.075,0.3,0.4
+,SQL Database,za north,0.198226738800823,0.0238,0.3,0.4
+,Sentinel,us east,0.457261742105547,0.0549,0.3,0.4
+,Sentinel,us east,0.036437168728302,0.0044,0.3,0.4
+,Storage,us east,3.2001266276e-05,0.0,0.3,0.4
+,Storage,us east,0.011450105722569,0.0014,0.3,0.4
+,Storage,us east,1.49303446559686,0.1792,0.3,0.4
+,Virtual Network,us east,0.402864657090832,0.0483,0.3,0.4
+,Azure App Service,us east,0.0,0.0,0.3,0.4
+,Azure Cognitive Search,us east,0.0,0.0,0.3,0.4
+,Azure DNS,unknown,0.015627534671166,0.0019,0.3,0.4
+,Azure DNS,unknown,0.015470992975838,0.0019,0.3,0.4
+,Bandwidth,us east,1.919362331e-06,0.0,0.3,0.4
+,Event Grid,unknown,1.6114586284e-05,0.0,0.3,0.4
+,Functions,us east,0.000304291186189,0.0,0.3,0.4
+,Load Balancer,us east,0.57552093870119,0.0691,0.3,0.4
+,Log Analytics,us east,0.006424171905321,0.0008,0.3,0.4
+,Log Analytics,us east,0.050100375850023,0.006,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,unknown,0.005962396924944,0.0007,0.3,0.4
+,Microsoft Defender for Cloud,unknown,1.918403129e-05,0.0,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.625275652111486,0.075,0.3,0.4
+,SQL Database,za north,0.198226738800823,0.0238,0.3,0.4
+,Sentinel,us east,0.303616558294367,0.0364,0.3,0.4
+,Sentinel,us east,0.043565544217412,0.0052,0.3,0.4
+,Storage,us east,5.4542503042e-05,0.0,0.3,0.4
+,Storage,us east,0.0170286301814,0.002,0.3,0.4
+,Storage,us east,5.9493517837e-05,0.0,0.3,0.4
+,Virtual Network,us east,0.115104187740238,0.0138,0.3,0.4
+,Azure App Service,us east,0.0,0.0,0.3,0.4
+,Azure Cognitive Search,us east,0.0,0.0,0.3,0.4
+,Azure DNS,unknown,0.015710793366964,0.0019,0.3,0.4
+,Azure DNS,unknown,0.015470992975838,0.0019,0.3,0.4
+,Bandwidth,us east,1.66901072e-07,0.0,0.3,0.4
+,Event Grid,unknown,1.323698159e-05,0.0,0.3,0.4
+,Functions,us east,0.00022634200553,0.0,0.3,0.4
+,Load Balancer,us east,0.57552093870119,0.0691,0.3,0.4
+,Log Analytics,us east,0.004241051685751,0.0005,0.3,0.4
+,Log Analytics,us east,0.038411644574604,0.0046,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,unknown,0.004638698765932,0.0006,0.3,0.4
+,Microsoft Defender for Cloud,unknown,1.918403129e-05,0.0,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.625275652111486,0.075,0.3,0.4
+,SQL Database,za north,0.198226738800823,0.0238,0.3,0.4
+,Sentinel,us east,0.378726126897617,0.0454,0.3,0.4
+,Sentinel,us east,0.033401430064873,0.004,0.3,0.4
+,Storage,us east,3.2001266276e-05,0.0,0.3,0.4
+,Storage,us east,0.014114489565039,0.0017,0.3,0.4
+,Storage,us east,5.7383274395e-05,0.0,0.3,0.4
+,Virtual Network,us east,0.115104187740238,0.0138,0.3,0.4
+,Azure App Service,us east,0.0,0.0,0.3,0.4
+,Azure Cognitive Search,us east,0.0,0.0,0.3,0.4
+,Azure DNS,unknown,0.015744173581408,0.0019,0.3,0.4
+,Azure DNS,unknown,0.015470992975838,0.0019,0.3,0.4
+,Bandwidth,us east,2.753867692e-06,0.0,0.3,0.4
+,Event Grid,unknown,1.323698159e-05,0.0,0.3,0.4
+,Functions,us east,0.000279778973633,0.0,0.3,0.4
+,Load Balancer,us east,0.57552093870119,0.0691,0.3,0.4
+,Log Analytics,us east,0.003868991019543,0.0005,0.3,0.4
+,Log Analytics,us east,0.039479842514964,0.0047,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,unknown,0.004845886303864,0.0006,0.3,0.4
+,Microsoft Defender for Cloud,unknown,1.918403129e-05,0.0,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.625275652111486,0.075,0.3,0.4
+,SQL Database,za north,0.656102403452922,0.0787,0.3,0.4
+,Sentinel,us east,0.329366393355935,0.0395,0.3,0.4
+,Sentinel,us east,0.034330297839099,0.0041,0.3,0.4
+,Storage,us east,3.487887097e-05,0.0,0.3,0.4
+,Storage,us east,0.013827415858115,0.0017,0.3,0.4
+,Storage,us east,6.0258577005e-05,0.0,0.3,0.4
+,Virtual Network,us east,0.115104187740238,0.0138,0.3,0.4
+,Azure App Service,us east,0.0,0.0,0.3,0.4
+,Azure Cognitive Search,us east,0.0,0.0,0.3,0.4
+,Azure DNS,unknown,0.015714630173224,0.0019,0.3,0.4
+,Azure DNS,unknown,0.015470992975838,0.0019,0.3,0.4
+,Bandwidth,us east,6.0084386e-06,0.0,0.3,0.4
+,Event Grid,unknown,1.3812502529e-05,0.0,0.3,0.4
+,Functions,us east,0.000298819556275,0.0,0.3,0.4
+,Load Balancer,us east,0.57552093870119,0.0691,0.3,0.4
+,Log Analytics,us east,0.00393766889236,0.0005,0.3,0.4
+,Log Analytics,us east,0.038498666697741,0.0046,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,unknown,0.003418594375885,0.0004,0.3,0.4
+,Microsoft Defender for Cloud,unknown,1.5347225032e-05,0.0,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.625275652111486,0.075,0.3,0.4
+,SQL Database,za north,0.198226738800823,0.0238,0.3,0.4
+,Sentinel,us east,0.329119942244842,0.0395,0.3,0.4
+,Sentinel,us east,0.033477101476296,0.004,0.3,0.4
+,Storage,us east,3.2384946902e-05,0.0,0.3,0.4
+,Storage,us east,0.013990604798705,0.0017,0.3,0.4
+,Storage,us east,5.9587135909e-05,0.0,0.3,0.4
+,Virtual Network,us east,0.115104187740238,0.0138,0.3,0.4
+,Azure App Service,us east,0.0,0.0,0.3,0.4
+,Azure Cognitive Search,us east,0.0,0.0,0.3,0.4
+,Azure DNS,unknown,0.015706956560706,0.0019,0.3,0.4
+,Azure DNS,unknown,0.015470992975838,0.0019,0.3,0.4
+,Bandwidth,us east,2.50351608e-07,0.0,0.3,0.4
+,Event Grid,unknown,1.3812502529e-05,0.0,0.3,0.4
+,Functions,us east,0.000275077240542,0.0,0.3,0.4
+,Load Balancer,us east,0.57552093870119,0.0691,0.3,0.4
+,Log Analytics,us east,0.003871239100249,0.0005,0.3,0.4
+,Log Analytics,us east,0.036113927393081,0.0043,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,unknown,0.004803681435026,0.0006,0.3,0.4
+,Microsoft Defender for Cloud,unknown,1.918403129e-05,0.0,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.625275652111486,0.075,0.3,0.4
+,SQL Database,za north,0.198226738800823,0.0238,0.3,0.4
+,Sentinel,us east,0.329400152934599,0.0395,0.3,0.4
+,Sentinel,us east,0.032656932341763,0.0039,0.3,0.4
+,Storage,us east,3.2384946902e-05,0.0,0.3,0.4
+,Storage,us east,0.014581584203924,0.0017,0.3,0.4
+,Storage,us east,7.4358840004e-05,0.0,0.3,0.4
+,Virtual Network,us east,0.115104187740238,0.0138,0.3,0.4
+,Azure App Service,us east,0.0,0.0,0.3,0.4
+,Azure Cognitive Search,us east,0.0,0.0,0.3,0.4
+,Azure DNS,unknown,0.015674343707514,0.0019,0.3,0.4
+,Azure DNS,unknown,0.015470992975838,0.0019,0.3,0.4
+,Bandwidth,us east,5.758086992e-06,0.0,0.3,0.4
+,Event Grid,unknown,1.2661460651e-05,0.0,0.3,0.4
+,Functions,us east,0.000181253247016,0.0,0.3,0.4
+,Load Balancer,us east,0.57552093870119,0.0691,0.3,0.4
+,Log Analytics,us east,0.003033155054016,0.0004,0.3,0.4
+,Log Analytics,us east,0.030265409755479,0.0036,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,unknown,0.004159097983681,0.0005,0.3,0.4
+,Microsoft Defender for Cloud,unknown,1.918403129e-05,0.0,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.625275652111486,0.075,0.3,0.4
+,SQL Database,za north,0.198226738800823,0.0238,0.3,0.4
+,Sentinel,us east,0.32912140646603,0.0395,0.3,0.4
+,Sentinel,us east,0.02631774761346,0.0032,0.3,0.4
+,Storage,us east,3.2001266276e-05,0.0,0.3,0.4
+,Storage,us east,0.012142944781171,0.0015,0.3,0.4
+,Storage,us east,5.8819774658e-05,0.0,0.3,0.4
+,Virtual Network,us east,0.115104187740238,0.0138,0.3,0.4
+,Azure App Service,us east,0.0,0.0,0.3,0.4
+,Azure Cognitive Search,us east,0.0,0.0,0.3,0.4
+,Azure DNS,unknown,0.015678947875024,0.0019,0.3,0.4
+,Azure DNS,unknown,0.015470992975838,0.0019,0.3,0.4
+,Bandwidth,us east,1.0598218086e-05,0.0,0.3,0.4
+,Event Grid,unknown,1.4388023468e-05,0.0,0.3,0.4
+,Functions,us east,0.000277383100681,0.0,0.3,0.4
+,Load Balancer,us east,0.57552093870119,0.0691,0.3,0.4
+,Log Analytics,us east,0.00390753490377,0.0005,0.3,0.4
+,Log Analytics,us east,0.038258823622146,0.0046,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,unknown,0.005137483579473,0.0006,0.3,0.4
+,Microsoft Defender for Cloud,unknown,1.918403129e-05,0.0,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.625275652111486,0.075,0.3,0.4
+,SQL Database,za north,0.198226738800823,0.0238,0.3,0.4
+,Sentinel,us east,0.345425369161505,0.0415,0.3,0.4
+,Sentinel,us east,0.033268542280127,0.004,0.3,0.4
+,Storage,us east,3.2001266276e-05,0.0,0.3,0.4
+,Storage,us east,0.013824455766404,0.0017,0.3,0.4
+,Storage,us east,5.8819774658e-05,0.0,0.3,0.4
+,Virtual Network,us east,0.115104187740238,0.0138,0.3,0.4
+,Azure App Service,us east,0.0,0.0,0.3,0.4
+,Azure Cognitive Search,us east,0.0,0.0,0.3,0.4
+,Azure DNS,unknown,8.9173084514e-05,0.0,0.3,0.4
+,Azure DNS,unknown,8.8994022095e-05,0.0,0.3,0.4
+,Azure DNS,unknown,0.001384152496565,0.0002,0.3,0.4
+,Azure DNS,unknown,0.01573227948201,0.0019,0.3,0.4
+,Azure DNS,unknown,0.015470992975838,0.0019,0.3,0.4
+,Bandwidth,us east,2.920768764e-06,0.0,0.3,0.4
+,Dataverse,eu west,0.389987450043358,0.0468,0.3,0.4
+,Dataverse,za north,0.012190401527178,0.0015,0.3,0.4
+,Event Grid,unknown,0.000157117216265,0.0,0.3,0.4
+,Functions,us east,0.000549948263538,0.0001,0.3,0.4
+,Load Balancer,us east,0.57552093870119,0.0691,0.3,0.4
+,Log Analytics,us east,0.011426566236536,0.0014,0.3,0.4
+,Log Analytics,us east,0.056593318287032,0.0068,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,unknown,0.016536634972014,0.002,0.3,0.4
+,Microsoft Defender for Cloud,unknown,1.918403129e-05,0.0,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.020143232854542,0.0024,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.625275652111486,0.075,0.3,0.4
+,SQL Database,za north,0.028176545957246,0.0034,0.3,0.4
+,SQL Database,za north,0.19987862829083,0.024,0.3,0.4
+,Sentinel,us east,0.329153982294043,0.0395,0.3,0.4
+,Sentinel,us east,0.049211581119158,0.0059,0.3,0.4
+,Storage,us east,3.2001266276e-05,0.0,0.3,0.4
+,Storage,us east,0.017690133344124,0.0021,0.3,0.4
+,Storage,us east,5.8819774658e-05,0.0,0.3,0.4
+,Virtual Network,us east,0.115104187740238,0.0138,0.3,0.4
+,Virtual Network,za north,0.02087595627187,0.0025,0.3,0.4
+,Azure App Service,us east,0.0,0.0,0.3,0.4
+,Azure Cognitive Search,us east,0.0,0.0,0.3,0.4
+,Azure DNS,unknown,0.015649020786211,0.0019,0.3,0.4
+,Azure DNS,unknown,0.015470992975838,0.0019,0.3,0.4
+,Bandwidth,us east,1.2434129881e-05,0.0,0.3,0.4
+,Dataverse,eu west,0.39440127696445,0.0473,0.3,0.4
+,Dataverse,za north,0.355431988786979,0.0427,0.3,0.4
+,Event Grid,unknown,1.8992190977e-05,0.0,0.3,0.4
+,Functions,us east,0.000269825854744,0.0,0.3,0.4
+,Load Balancer,us east,0.57552093870119,0.0691,0.3,0.4
+,Log Analytics,us east,0.003958691425288,0.0005,0.3,0.4
+,Log Analytics,us east,0.038724957310351,0.0046,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.469625085980171,0.0564,0.3,0.4
+,Microsoft Defender for Cloud,unknown,0.003330347831951,0.0004,0.3,0.4
+,Microsoft Defender for Cloud,unknown,1.5347225032e-05,0.0,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.625275652111486,0.075,0.3,0.4
+,SQL Database,za north,0.20483429676085,0.0246,0.3,0.4
+,Sentinel,us east,0.329136436387185,0.0395,0.3,0.4
+,Sentinel,us east,0.033673875922044,0.004,0.3,0.4
+,Storage,us east,5.4542503042e-05,0.0,0.3,0.4
+,Storage,us east,0.014115669361387,0.0017,0.3,0.4
+,Storage,us east,5.8819774658e-05,0.0,0.3,0.4
+,Virtual Network,us east,0.115104187740238,0.0138,0.3,0.4
+,Azure App Service,us east,0.0,0.0,0.3,0.4
+,Azure Cognitive Search,us east,0.0,0.0,0.3,0.4
+,Azure DNS,unknown,0.015677029471895,0.0019,0.3,0.4
+,Azure DNS,unknown,0.015470992975838,0.0019,0.3,0.4
+,Bandwidth,us east,4.17252681e-07,0.0,0.3,0.4
+,Dataverse,eu west,0.457413100774644,0.0549,0.3,0.4
+,Dataverse,za north,0.199684257656365,0.024,0.3,0.4
+,Event Grid,unknown,9.783855958e-06,0.0,0.3,0.4
+,Functions,us east,0.000214519684402,0.0,0.3,0.4
+,Load Balancer,us east,0.57552093870119,0.0691,0.3,0.4
+,Log Analytics,us east,0.004311995288583,0.0005,0.3,0.4
+,Log Analytics,us east,0.039237599133374,0.0047,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.462910675028657,0.0555,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.462910675028657,0.0555,0.3,0.4
+,Microsoft Defender for Cloud,us east,0.462910675028657,0.0555,0.3,0.4
+,Microsoft Defender for Cloud,unknown,0.004592657090835,0.0006,0.3,0.4
+,Microsoft Defender for Cloud,unknown,1.918403129e-05,0.0,0.3,0.4
+,Microsoft Defender for Cloud,za north,0.599222499940174,0.0719,0.3,0.4
+,SQL Database,za north,0.654811314169686,0.0786,0.3,0.4
+,Storage,us east,3.487887097e-05,0.0,0.3,0.4
+,Storage,us east,0.014112810962303,0.0017,0.3,0.4
+,Storage,us east,6.0258577005e-05,0.0,0.3,0.4
+,Virtual Network,us east,0.115104187740238,0.0138,0.3,0.4
