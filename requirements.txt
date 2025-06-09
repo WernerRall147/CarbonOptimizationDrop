@@ -1,0 +1,3 @@
+azure-identity
+requests
+azure-storage-blob
