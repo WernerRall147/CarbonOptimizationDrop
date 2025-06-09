@@ -1,7 +1,28 @@
-from azure.storage.blob import BlobServiceClient
+from azure.storage.blob import BlobServiceClient, ContainerClient
 from azure.identity import DefaultAzureCredential
+from azure.core.exceptions import ResourceExistsError
 import os
 import sys
+
+def ensure_container_exists(blob_service_client, container_name):
+    """Create container if it doesn't exist"""
+    try:
+        container_client = blob_service_client.get_container_client(container_name)
+        container_client.get_container_properties()
+        print(f"📁 Container '{container_name}' already exists")
+        return True
+    except Exception:
+        # Container doesn't exist, create it
+        try:
+            blob_service_client.create_container(container_name)
+            print(f"✅ Created container '{container_name}'")
+            return True
+        except ResourceExistsError:
+            print(f"📁 Container '{container_name}' already exists")
+            return True
+        except Exception as e:
+            print(f"❌ Failed to create container '{container_name}': {str(e)}")
+            return False
 
 def upload_to_azure_storage(local_file_path, storage_account_name, container_name, blob_name=None):
     """
@@ -24,6 +45,10 @@ def upload_to_azure_storage(local_file_path, storage_account_name, container_nam
         # Create BlobServiceClient
         account_url = f"https://{storage_account_name}.blob.core.windows.net"
         blob_service_client = BlobServiceClient(account_url=account_url, credential=credential)
+        
+        # Ensure container exists
+        if not ensure_container_exists(blob_service_client, container_name):
+            return False
         
         # Get blob client
         blob_client = blob_service_client.get_blob_client(container=container_name, blob=blob_name)
