@@ -308,6 +308,38 @@ class AzureCarbonExtractor:
             
         return success
 
+def extract_carbon_emissions():
+    """Extract carbon emissions data from Azure APIs and save to output directory"""
+    print("🌱 Starting Azure Carbon Emissions extraction...")
+    
+    # Ensure output directory exists
+    output_dir = "../output"
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+    
+    try:
+        # Initialize the extractor
+        extractor = AzureCarbonExtractor()
+        
+        # Override output paths to use output directory
+        extractor.output_file = os.path.join(output_dir, "azure_carbon_data.json")
+        extractor.csv_file = os.path.join(output_dir, "azure_carbon_data.csv")
+        
+        # Run the extraction
+        success = extractor.run_extraction()
+        
+        if success:
+            output_files = [extractor.output_file, extractor.csv_file]
+            return True, output_files
+        else:
+            return False, []
+        
+    except Exception as e:
+        print(f"❌ Extraction failed: {str(e)}")
+        import traceback
+        traceback.print_exc()
+        return False, []
+
 def main():
     """Main entry point"""
     import argparse
