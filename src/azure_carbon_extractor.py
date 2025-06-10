@@ -112,34 +112,79 @@ class AzureCarbonExtractor:
         """Get Azure resource data to calculate carbon footprint"""
         print("🔍 Querying Azure Resource Graph for carbon-relevant resources...")
         
-        url = f"https://management.azure.com/subscriptions/{self.subscription_id}/providers/Microsoft.Resources/resources?api-version=2021-04-01"
+        # Use Azure Resource Graph API (correct endpoint)
+        url = "https://management.azure.com/providers/Microsoft.ResourceGraph/resources?api-version=2021-03-01"
         
-        # Filter for resources that typically have higher carbon footprint
-        filter_query = "$filter=" + " or ".join([
-            "resourceType eq 'Microsoft.Compute/virtualMachines'",
-            "resourceType eq 'Microsoft.Storage/storageAccounts'", 
-            "resourceType eq 'Microsoft.ContainerService/managedClusters'",
-            "resourceType eq 'Microsoft.Sql/servers'",
-            "resourceType eq 'Microsoft.DBforPostgreSQL/servers'",
-            "resourceType eq 'Microsoft.Web/serverFarms'",
-            "resourceType eq 'Microsoft.Network/loadBalancers'"
-        ])
+        # Resource Graph query to get carbon-relevant resources
+        query = """
+        Resources
+        | where type in~ (
+            'microsoft.compute/virtualmachines',
+            'microsoft.storage/storageaccounts',
+            'microsoft.containerservice/managedclusters',
+            'microsoft.sql/servers',
+            'microsoft.dbforpostgresql/servers',
+            'microsoft.web/serverfarms',
+            'microsoft.network/loadbalancers'
+        )
+        | project name, type, location, resourceGroup, subscriptionId, tags
+        | limit 1000
+        """
         
-        url += f"&{filter_query}&$select=name,type,location,tags,properties"
+        request_body = {
+            "subscriptions": [self.subscription_id],
+            "query": query
+        }
+        
+        try:
+            response = requests.post(url, headers=self.get_headers(), json=request_body)
+            if response.status_code == 200:
+                data = response.json()
+                resources = data.get('data', [])
+                print(f"✅ Resource data retrieved: {len(resources)} carbon-relevant resources")
+                return resources
+            else:
+                print(f"⚠️ Resource Graph API failed: {response.status_code} - {response.text[:200]}")
+                # Fallback to simpler approach
+                return self.get_resource_data_fallback()
+        except Exception as e:
+            print(f"⚠️ Resource Graph API error: {e}")
+            # Fallback to simpler approach
+            return self.get_resource_data_fallback()
+    
+    def get_resource_data_fallback(self):
+        """Fallback method to get resource data using simpler API"""
+        print("🔄 Trying fallback resource API...")
+        
+        # Use simple Resource Manager API
+        url = f"https://management.azure.com/subscriptions/{self.subscription_id}/resources?api-version=2021-04-01"
         
         try:
             response = requests.get(url, headers=self.get_headers())
             if response.status_code == 200:
                 data = response.json()
-                resources = data.get('value', [])
-                print(f"✅ Resource data retrieved: {len(resources)} carbon-relevant resources")
+                all_resources = data.get('value', [])
+                
+                # Filter for carbon-relevant resources
+                carbon_resource_types = [
+                    'Microsoft.Compute/virtualMachines',
+                    'Microsoft.Storage/storageAccounts',
+                    'Microsoft.ContainerService/managedClusters',
+                    'Microsoft.Sql/servers',
+                    'Microsoft.DBforPostgreSQL/servers',
+                    'Microsoft.Web/serverFarms',
+                    'Microsoft.Network/loadBalancers'
+                ]
+                
+                resources = [r for r in all_resources if r.get('type') in carbon_resource_types]
+                print(f"✅ Resource data retrieved (fallback): {len(resources)} carbon-relevant resources")
                 return resources
             else:
-                print(f"❌ Resource API failed: {response.status_code} - {response.text[:200]}")
-                return None
+                print(f"❌ Fallback Resource API failed: {response.status_code} - {response.text[:200]}")
+                return []
         except Exception as e:
-            print(f"❌ Resource API error: {e}")
-            return None
+            print(f"❌ Fallback Resource API error: {e}")
+            return []
     
     def get_sustainability_data(self):
         """Try to get sustainability/carbon data from various Azure endpoints"""
@@ -148,26 +193,40 @@ class AzureCarbonExtractor:
         sustainability_endpoints = [
             {
                 "name": "Sustainability Workbook",
-                "url": f"https://management.azure.com/subscriptions/{self.subscription_id}/providers/Microsoft.Insights/workbooks?api-version=2022-04-01&category=workbook&tags=sustainability"
+                "url": f"https://management.azure.com/subscriptions/{self.subscription_id}/providers/Microsoft.Insights/workbooks?api-version=2022-04-01",
+                "params": {"category": "workbook"}
             },
             {
-                "name": "Carbon Metrics",
-                "url": f"https://management.azure.com/subscriptions/{self.subscription_id}/providers/Microsoft.Monitor/metrics?api-version=2018-01-01"
+                "name": "Resource Health",
+                "url": f"https://management.azure.com/subscriptions/{self.subscription_id}/providers/Microsoft.ResourceHealth/availabilityStatuses?api-version=2022-10-01",
+                "params": {}
+            },
+            {
+                "name": "Advisor Recommendations",
+                "url": f"https://management.azure.com/subscriptions/{self.subscription_id}/providers/Microsoft.Advisor/recommendations?api-version=2020-01-01",
+                "params": {}
             }
         ]
         
         results = {}
         for endpoint in sustainability_endpoints:
             try:
-                response = requests.get(endpoint["url"], headers=self.get_headers())
+                url = endpoint["url"]
+                if endpoint["params"]:
+                    # Add query parameters
+                    params = "&".join([f"{k}={v}" for k, v in endpoint["params"].items()])
+                    url += f"&{params}" if "?" in url else f"?{params}"
+                
+                response = requests.get(url, headers=self.get_headers())
                 if response.status_code == 200:
                     data = response.json()
                     results[endpoint["name"]] = data
-                    print(f"✅ {endpoint['name']}: {response.status_code}")
+                    count = len(data.get('value', [])) if isinstance(data, dict) and 'value' in data else 'unknown'
+                    print(f"✅ {endpoint['name']}: {response.status_code} ({count} items)")
                 else:
-                    print(f"⚠️ {endpoint['name']}: {response.status_code}")
+                    print(f"⚠️ {endpoint['name']}: {response.status_code} - {response.text[:100]}")
             except Exception as e:
-                print(f"❌ {endpoint['name']} error: {e}")
+                print(f"⚠️ {endpoint['name']} error: {str(e)[:100]}")
         
         return results if results else None
     
